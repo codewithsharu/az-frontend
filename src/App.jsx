@@ -47,7 +47,7 @@ function App() {
 
       <div className="status-box">
         <p><strong>Backend Status:</strong> {status}</p>
-        <p><strong>Last Updated:</strong> {lastUpdated}</p>
+        <p><strong>Mark Down Text: </strong>shareen</p>
       </div>
 
       <button onClick={fetchData}>Fetch Data</button>
