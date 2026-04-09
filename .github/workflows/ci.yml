@@ -7,8 +7,7 @@ on:
 
 jobs:
   build:
-    uses: https://github.com/codewithsharu/templates/blob/main/.github/workflows/react-build.yml
+    uses: codewithsharu/templates/.github/workflows/react-build.yml@main
     with:
-      node-version: '18'
-      build-folder: 'build'
-      artifact-name: 'react-build'
+      artifact-name: react-build
+      build-folder: build
