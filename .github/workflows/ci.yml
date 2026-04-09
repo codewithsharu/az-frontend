@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: codewithsharu/templates/.github/workflows/react/build/build.yml@main
+    uses: https://github.com/codewithsharu/templates/blob/main/.github/workflows/react-build.yml
     with:
       node-version: '18'
       build-folder: 'build'
