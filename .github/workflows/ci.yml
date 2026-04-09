@@ -11,4 +11,4 @@ jobs:
     with:
       node-version: '20'
       artifact-name: react-build
-      build-folder: build
+      build-folder: dist
