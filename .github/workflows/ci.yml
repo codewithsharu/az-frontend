@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: codewithsharu/templates/.github/workflows/react-build.yml@main
+    uses: codewithsharu/templates/.github/workflows/build.yml@main
     with:
       node-version: '24.14.1'
       build-folder: dist
