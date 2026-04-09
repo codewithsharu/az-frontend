@@ -1,3 +1,10 @@
+name: React Build
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     uses: codewithsharu/templates/.github/workflows/react-build.yml@main
