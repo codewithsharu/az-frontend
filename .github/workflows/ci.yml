@@ -1,13 +1,7 @@
-name: React Build
-
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   build:
-    uses: codewithsharu/templates/.github/workflows/build.yml@main
+    uses: codewithsharu/templates/.github/workflows/react-build.yml@main
     with:
+      node-version: '20'
       artifact-name: react-build
       build-folder: build
