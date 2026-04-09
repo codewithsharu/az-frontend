@@ -9,6 +9,6 @@ jobs:
   build:
     uses: codewithsharu/templates/.github/workflows/build.yml@main
     with:
-      node-version: '20'
+      node-version: '24.14.1'
       artifact-name: react-build
       build-folder: dist
