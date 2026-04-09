@@ -1,0 +1,12 @@
+name: React Build
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    uses:codewithsharu/templates/.github/actions/workflows/react/build/build.yml@main
+    with:
+      artifact-name: react-ui
+      build-folder: build
