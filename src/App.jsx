@@ -32,7 +32,7 @@ function App() {
 
 
   const fetchData = async () => {
-    const res = await fetch("http://localhost:5000/api/employees");
+    const res = await fetch("https://az-backend-puce.vercel.app/api/employees");
     const result = await res.json();
     setData(result);
   };
